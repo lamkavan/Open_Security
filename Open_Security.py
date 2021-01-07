@@ -97,7 +97,7 @@ class Output:
         pygame.init()
         pygame.mixer.init()
         dis = pygame.display.set_mode((1, 1))  ### import a sound file and play it using pygame
-        sound = pygame.mixer.Sound("Alert_sound.wav")
+        sound = pygame.mixer.Sound("./assets/Alert_sound.wav")
         sound.play()
 
         # Send a tweet
